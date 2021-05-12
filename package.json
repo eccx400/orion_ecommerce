@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Orion ecommerce",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node backend/server",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/eccx400/orion_ecommerce#readme",
   "dependencies": {
+    "dotenv": "^9.0.2",
     "express": "^4.17.1"
   },
   "devDependencies": {
